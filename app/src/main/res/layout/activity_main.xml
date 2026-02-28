@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="732923ITR012"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Employee Contact Manager"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!-- David Brown -->
+            <TextView
+                android:text="Kaaviya Lakshmi (ID:1023)"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnCallDavid"
+                android:text="Call"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnSMSDavid"
+                android:text="SMS"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"/>
+
+            <!-- Sarah Lee -->
+            <TextView
+                android:text="Ramesh Pandiyan (ID:1007)"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnCallSarah"
+                android:text="Call"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnEmailSarah"
+                android:text="Email"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"/>
+
+            <!-- John Doe -->
+            <TextView
+                android:text="Ramya Devi (ID:1045)"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnCallJohn"
+                android:text="Call"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnSMSJohn"
+                android:text="SMS"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"/>
+
+            <!-- Jane Smith -->
+            <TextView
+                android:text="Laavanya Sri (ID:1034)"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnCallJane"
+                android:text="Call"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnEmailJane"
+                android:text="Email"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
